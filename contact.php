@@ -10,24 +10,24 @@
 <body>
     <header>
     <div class="container">
-    <div id="branding"> 
+    <div id="branding">
     <h1><span style="color:rgb(230, 70, 13)">Acash</span> Web Design</h1>
     </div>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Services</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="service.php">Services</a></li>
             <li><a href="#"><span style="color:rgb(230, 70, 13)">Contact</span></a></li>
         </ul>
     </nav>
-    </div>  
+    </div>
     </header>
     <section id="main">
         <div class="container">
             <article id="main-colu">
                 <h1>Contact Us</h1>
-                
+
                     <p>Address : Shyama Prasad Mukherjee Rd, Lake Market, Kalighat, Kolkata, West Bengal 700029</p>
                     <p>Toll Free No : 18002086633</p>
                     <p>Email : <a style ="text-decoration:none" href="#">web_design@acash.com</a></p>
@@ -39,19 +39,19 @@
 
 
 
-                
 
-            
+
+
 
         </div>
 
     </section>
-    
-    
+
+
     <footer id="footer-main">
-        <p>Acash Web Design Ltd. &copy; 2019;</p>
+        <p>Web Design Ltd. &copy; 2021;</p>
 
     </footer>
-    
+
 </body>
 </html>

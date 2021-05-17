@@ -10,18 +10,18 @@
 <body>
     <header>
     <div class="container">
-    <div id="branding"> 
+    <div id="branding">
     <h1><span style="color:rgb(230, 70, 13)">Acash</span> Web Design</h1>
     </div>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
             <li><a href="#"><span style="color:rgb(230, 70, 13)">Services</span></a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
-    </div>  
+    </div>
     </header>
     <section id="main">
         <div class="container">
@@ -32,12 +32,12 @@
             <h1>Web Designing</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor commodi optio quia eaque laudantium. Aliquid nam nihil necessitatibus nisi, doloribus explicabo consectetur facilis vel reiciendis error, saepe, repellat minus totam?</p>
         </li>
-    
+
         <li>
             <h1>Web Maintenance</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quisquam vel tenetur quam, ipsam impedit explicabo perferendis vitae sint placeat quas eligendi odit fugit? Et debitis quod doloribus enim eaque.</p>
         </li>
-        
+
         <li>
             <h1>Wev Development</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam, corporis, magni nemo reiciendis mollitia dolore dignissimos veritatis nam sint assumenda soluta ad qui voluptatum possimus! Asperiores ipsa ut non.</p>
@@ -61,7 +61,7 @@
 
                 </div>
                 <div>
-    
+
                 <button class="button-1">Send</button>
                 </div>
             </form>
@@ -69,12 +69,12 @@
         </aside>
     </div>
     </section>
-    
-    
+
+
     <footer id="footer-main">
-        <p>Acash Web Design Ltd. &copy; 2019;</p>
+        <p> Web Design Ltd. &copy; 2021;</p>
 
     </footer>
-    
+
 </body>
 </html>

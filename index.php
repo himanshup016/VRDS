@@ -16,9 +16,9 @@
     <nav>
         <ul>
             <li><a href="#"><span style="color:rgb(230, 70, 13)">Home</span></a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="service.php">Services</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
     </div>
@@ -87,17 +87,17 @@
             <h2>Quick links </h2>
             <br>
             <ul>
-              <li><a href="about.html">About us</a></li>
-              <li><a href="service.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="contact.html">TermsAndConditions</a></li>
-              <li><a href="contact.html">Sight Map</a></li>
+              <li><a href="about.php">About us</a></li>
+              <li><a href="service.php">Services</a></li>
+              <li><a href="contact.php">Contact</a></li>
+              <li><a href="contact.php">TermsAndConditions</a></li>
+              <li><a href="contact.php">Sight Map</a></li>
             </ul>
           </div>
           <div class="footer-section contact-form">
         <h2>Contact us</h2>
         <br>
-        <form action="index.html" method="post">
+        <form action="index.php" method="post">
           <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."><br>
           <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea><br>
           <button type="submit" class="btn btn-big contact-btn">
@@ -108,7 +108,7 @@
       </div>
         </div>
         <div class="footer-bottom">
-        <p>Kyoto Vaccination Distribution  Ltd. &copy; 2019;</p>
+        <p>Kyoto Vaccination Distribution  Ltd. &copy; 2021;</p>
         </div>
       </div>
 

@@ -17,10 +17,10 @@
     </div>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#"><span style="color:rgb(230, 70, 13)">About</span></a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="service.php">Services</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
     </div>
@@ -40,7 +40,7 @@
         </div>
 </section>
     <footer id="footer-main">
-        <p>Acash Web Design Ltd. &copy; 2019;</p>
+        <p> Web Design Ltd. &copy; 2021;</p>
 
     </footer>
 
