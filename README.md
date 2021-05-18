@@ -4,7 +4,7 @@
 
 **Roles and Responsibilities:-**
 <BR><P>PROJECT IS LEAD BY DRIMESH PENDAM AND <A HREF="">HIMANSHU PISE</A> IN A CHARGE OF BEING BACKEND AND FRONTEND RESPECTIVELY.
-  
+
 **PROJECT STAGES:-**
 <BR>
 <LI><b>FRONTEND - </b></LI>
@@ -57,5 +57,3 @@ MySQL is free and open-source software under the terms of the GNU General Public
 
 MySQL has stand-alone clients that allow users to interact directly with a MySQL database using SQL, but more often MySQL is used with other programs to implement applications that need relational database capability.
 </OL>
-
-
