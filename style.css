@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 
 }
 html,body{
@@ -23,49 +24,14 @@ html,body{
 }
 
 
-header{
-    background-color: rgba(39, 38, 38, 0.959);
-    padding: 8px;
-    min-height: 70px;
-    border-bottom: rgb(230, 70, 13) 3px solid;
-    height: 90px;
-}
+
 ul{
     list-style: none;
     padding: 0;
     margin: 0;
 
 }
-header li{
-    display: inline;
 
-    padding: 0 20px 0 20px;
-
-}
-header a{
-
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-}
-header a:hover{
-    font:bold;
-    color:grey;
-}
-header nav{
-    float: right;
-    margin-top: 25px;
-}
-header #branding{
-    font:bond;
-    float: left;
-}
-header #branding h1{
-    margin: 0;
-    margin-top: 12px;
-    color: #fff;
-    word-spacing: 0.3rem;
-}
 
 
 #section-main{
@@ -279,7 +245,7 @@ aside#sidebar-2 img{
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
-  height: 50px;
+  height: 30px;
   width: 100%;
   text-align: center;
   position: absolute;
@@ -287,23 +253,58 @@ aside#sidebar-2 img{
   left: 0px;
   padding-top: 20px;
 }
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060rem) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
 
-@media(max-width:1000px)
-{
-    header{
-        padding-bottom: 20px;
-    }
-    header #branding{
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-    header nav li{
-        float:none;
-        text-align: center;
-        width: 100%;
 
-    }
+
+@media only screen and (max-width: 934px) {
+  .content {
+    width: 100%;
+  }
+
+  .auth-content {
+    width: 50%;
+  }
+
+  .content .main-content .post {
+    width: 100%;
+  }
+
+  .content .main-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content .sidebar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content .sidebar .section.search {
+    margin-top: 30px;
+  }
+  .footer {
+    height: auto;
+  }
+
+  .footer .footer-content {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer .footer-content .contact-form {
+    padding-bottom: 90px;
+  }
+
+  .footer .footer-content .contact-form .contact-btn {
+    width: 100%;
+  }
+}
+
     .container{
         padding-right: 3rem;
         padding-left: 3rem;
@@ -321,4 +322,5 @@ aside#sidebar-2 img{
         width:100%;
         margin-bottom:5px;
       }
+
 }

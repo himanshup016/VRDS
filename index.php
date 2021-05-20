@@ -1,43 +1,78 @@
+<?php
+include('includes/header.html');
+?>
+
+<!--header strt  -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Web Design</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+       <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+     <link rel="stylesheet" href="style1.css">
+      <link rel="stylesheet" href="style.css">
+
+    <title>Vaccination</title>
 </head>
 <body>
-    <header>
+  <!--  <header>
     <div class="container">
     <div id="branding">
-    <h1><span style="color:rgb(230, 70, 13)">Acash</span> Web Design</h1>
-    </div>
-    <nav>
-        <ul>
+    <h1><span style="color:rgb(230, 70, 10)">Vaccine Distributor</h1>
+    </div >
+
+
             <li><a href="#"><span style="color:rgb(230, 70, 13)">Home</span></a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="service.php">Services</a></li>
-            <li><a href="contact.php">Contact</a></li>
-        </ul>
-    </nav>
+            <li><a href="about.php"><span style="color:rgb(230, 70, 13)">About</span></a></li>
+            <li><a href="service.php"><span style="color:rgb(230, 70, 13)">Services</span></a></li>
+            <li><a href="contact.php"><span style="color:rgb(230, 70, 13)">Contact</span></a></li>
+
+             </a>
+      </div>
+        </div>
+      <header>
+    <div class="logo">
+      <h1 class="logo-text"><span>Vacc</span>Ds</h1>
     </div>
-    </header>
-    <section id="section-main">
-        <div class="container">
-        <h1>Affordable Web Design Courses</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis accusantium quae ratione laudantium nobis provident similique obcaecati veniam. Explicabo, numquam. .</p>
-        </div>
-    </section>
-    <section id="section-subscribe">
-            <div class="container">
-        <h1>Subscribe To Our Portal</h1>
-        <form >
-        <input  type="email" name="Email" placeholder="Enter Email">
-        <button class="button-1">Subscribe</button>
-        </form>
-        </div>
-    </section>
+   <i class="fa fa-bars menu-toggle"></i>
+    <ul class="nav showing">
+      <li><a class="links" href="#">Home</a></li>
+      <li><a class="links" href="about.php">About</a></li>
+      <li><a class="links" href="service.php">Services</a></li>
+      <li><a class="links" href="contact.php">Contact us</a></li>
+      <li><a class="links" href="#">Login</a></li>
+      <li>
+        <a href="#">
+          <i class="fa fa-user"></i>
+          Awa Melvine
+          <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+        </a>
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#" class="logout">Logout</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+
+
+       header end-->
+
+
+
     <section id="section-box">
         <div class="container">
         <div class="Box">
@@ -51,7 +86,6 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laudantium.</p>
             </div>
         <div class="Box">
-
                 <img src="images\3.png" alt="Web Design">
                 <div class="box1"></div>
                 <h2>Web Desining</h2>
@@ -61,7 +95,9 @@
             </div>
         </section>
 
-        <!--footer-->
+
+
+        <!--footer begins
 
       <div class="footer">
         <div class="footer-content">
@@ -98,8 +134,8 @@
         <h2>Contact us</h2>
         <br>
         <form action="index.php" method="post">
-          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."><br>
-          <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea><br>
+          <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+          <textarea rows="2" name="message" class="text-input contact-input" placeholder="Your message..."></textarea><br>
           <button type="submit" class="btn btn-big contact-btn">
             <i class="fas fa-envelope"></i>
             Send
@@ -112,5 +148,10 @@
         </div>
       </div>
 
-  </body>
-</html>
+         footer end-->
+
+
+      <?php
+        include('script.js');
+        include('includes/footer.html');
+        ?>
